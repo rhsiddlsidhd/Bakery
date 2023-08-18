@@ -1,0 +1,129 @@
+* {
+  font-size: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Dancing Script", cursive;
+  list-style: none;
+}
+.container {
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+  height: 100vh;
+}
+
+/* 폰트 젤 큰거 7rem 중간2rem 젤작은거 1rem */
+section {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+.hero {
+  background-image: url(images/bread1.jpg);
+  text-align: center;
+  padding: 10vh;
+}
+
+.fa-solid {
+  font-size: 100%;
+}
+
+.title {
+  font-size: 7rem;
+
+  margin-bottom: 2rem;
+}
+
+p {
+  font-size: 2rem;
+}
+
+.menu {
+  background-image: url(images/bread2.jpg);
+  display: flex;
+  align-items: center;
+}
+
+.wrapper {
+  padding: 0 6rem;
+  margin: 0 6rem;
+}
+
+.title_1 {
+  font-size: 7rem;
+  text-align: center;
+}
+
+table tr {
+  font-size: 1.5rem;
+}
+
+table td {
+  padding-left: 1.5rem;
+}
+.sidebar {
+  text-align: left;
+}
+/* ---- */
+
+.contact {
+  background-image: url(images/cafe.jpg);
+  text-align: center;
+}
+
+.final {
+  font-size: 7rem;
+
+  padding-top: 4rem;
+}
+
+.final_1 {
+  padding-top: 1.5rem;
+}
+button {
+  background: #555;
+  font-size: 1.5rem;
+  color: #fff;
+  padding: 1rem 3.5rem;
+  border-radius: 6px;
+  display: inline-block;
+  margin: 2rem 0 2.25rem;
+}
+button:hover {
+  background: #777;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  background: #fff;
+  width: 3.75rem;
+  height: 3.75rem;
+  display: inline-block;
+  margin: 0 1rem;
+  border-radius: 50%;
+  font-size: 2rem;
+  padding: 2rem 0 0 0.125rem;
+  color: #555;
+}
+
+a:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (max-width: 700px) {
+  .title {
+    font-size: 4rem;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+  table td {
+    font-size: 0.8rem;
+  }
+}
